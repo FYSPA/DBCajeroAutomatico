@@ -14,4 +14,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Id_Cliente" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="a65634cc-d0e3-4d08-81ed-5900c7f790aa" ChangeDateTime="06/24/2024 01:23:22">
+    <Property Name="ElementName" Value="[dbo].[DatosCliente].[noCuenta]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DatosCliente]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CuentaOrigen" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bf214e1d-1fde-4791-9fd1-48e8d43f3240" ChangeDateTime="06/24/2024 01:33:13">
+    <Property Name="ElementName" Value="[dbo].[DatosCliente].[CuentaOrigen]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DatosCliente]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CuentaPrincipal" />
+  </Operation>
 </Operations>
